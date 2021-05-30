@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#creator{
+  background-color: cyan;
+  position: absolute;
+  left: 900px;
+  top: 100px;
+  width: 100px;
+  border-radius: 15px;
+  box-shadow: 4px 4px rgb(128, 128, 223);
+  display: none;
+}
