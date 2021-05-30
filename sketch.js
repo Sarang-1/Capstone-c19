@@ -497,7 +497,7 @@ function rightBullet(){
 function leftBullet(){
   bullet=createSprite(1,1,1,1);
   bullet.x=hero1.x-60;
-  bullet.y=hero1.y-55;
+  bullet.y=hero1.y;
   bullet.addImage(bulleti);
   bullet.scale=0.03;
   bullet.velocityX=-3;
